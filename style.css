@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    /*background:  #F8F8FF;*/
+    background-image: url("images/background.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.header {
+    width: 50%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.content {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.username {
+    margin: 10px 0px 10px 0px;
+}
+
+.username label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.username input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.password {
+    margin: 10px 0px 10px 0px;
+}
+
+.password label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.password input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    margin: 10px 0px 10px 0px;
+}
+
+.button label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.button input {
+    height: 25px;
+    width: 90%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.adjusted {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.menu_left {
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 10%;
+}
+
+
+.menu_right {
+    margin: 0;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 10%;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+table {
+    padding-left: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+th {
+  background-color: #5F9EA0;
+  color: white;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
